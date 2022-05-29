@@ -24,6 +24,7 @@ app.on('ready', ()=>{
         provider : false,
         logger   : log,
     }).then(async ()=>{
+        if (process.platform === 'darwin') app.dock.hide();
         tray.init();
         update.init();
         clipboard.init();

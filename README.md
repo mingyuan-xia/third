@@ -53,4 +53,4 @@
 - [ ] linux 文件拷贝支持
 - [ ] 多文件（夹）拷贝（源端 zip 压缩，目的端 zip 解压缩）
 
-> PS: [未来对此项目的规划](readme.future.md)
+> PS: [未来对此项目的规划](README.future.md)
